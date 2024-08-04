@@ -1,0 +1,86 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    /*DEIXA A LISTA LADO A LADO*/
+    list-style-type: none;
+    /*TIRA A BOLINHHA DO LIST*/
+    align-items: center;
+    /*FICA ALINHADO AO CENTRO*/
+    padding: 16px;
+    /*ESPAÇO EM CIMA E EM BAIXO*/
+
+}
+
+a {
+    color: white;
+    /*DEIXOU AS LETRAS BRANCAS*/
+    text-decoration: none;
+    /*TIRA A LINHA DE BAIXO*/
+}
+
+header img {
+    /*AQUI MECHO NO TAMANHO DA IMAGEM*/
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /*FAZ IMAGEM FICAR REDONDA*/
+    border: 5px solid red;
+    /*FAZ A BORDA VERDA*/
+    align-items: center;
+}
+
+.center {
+    /*sempre que usar '.' para classe*/
+    text-align: center;
+    /*MESMO NÃO SENDO TEXTO ELE CENTRALIZA O QUE ESTIVER NA DIV*/
+}
+
+h1 {
+    color: red;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+
+}
+
+footer {
+    /*ALINHOU OS ICONES NO CENTRO*/
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    /*SEPARA OS ICONES*/
+    margin: 20px;
+    text-align: center;
+    /*alinhou as letras e a imagem*/
+}
+
+.conteiner {
+    /*CRIADA PARA ALINHAR A PAGINA*/
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: red;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+
+}
+/*shift+alt+f, alinha o código*/
